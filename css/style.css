@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image:url(../recursos/imagenes/paisaje-del-campo-de-campos-verdes-fondo-3.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.flex-containerheader {
+    display: flex;
+}
+
+.links {
+    border: 2px solid white;
+    background-color: rgb(103, 176, 103);
+    color: black;
+    font-weight: bold;
+    width: 200px;
+    height: 140px;
+    line-height: 15px;
+    text-align:start;
+    margin: 5px;
+    text-decoration: none;
+}
+
+.header__link__inicio {
+    color: black;
+    list-style-type: none;
+    width: 50px;
+    height: 50px;
+}
+
+.header__accesos {
+    color: black;
+    list-style-type: none;
+    
+     
+}
+
+
+
+.header__accesos__link{
+    color: black;
+    text-decoration: none;
+    font-weight: bold; 
+}
+
+.header__logo {
+    width: 200px;
+    height: 200px;
+}
+
+.main__texto {
+    border: 1px solid rgb(3, 41, 3);
+    background-color: rgb(167, 183, 167);
+    padding: 20px;
+    display: flex;
+    flex-flow:row wrap;
+    width: 90%;
+    margin: 0 auto;
+    justify-content:space-between;
+    align-content: space-around;
+}
+
+.footer__redes {
+    width: 55px;
+    height: 55px;
+}
+
+.footer__ubicacion {
+    width: 70px;
+    height: 70px;    
+}
+
+.flex-container2 {
+    border: 1px solid rgb(3, 41, 3);
+    background-color: rgb(98, 222, 98);
+    padding: 20px;
+    display: flex;
+    flex-flow:row wrap;
+    width: 90%;
+    margin: 0 auto;
+    justify-content:space-between;
+    align-content: space-around;
+}
+
+
+.caja {
+    border: 2px solid white;
+    background-color: rgb(103, 176, 103);
+    color: black;
+    font-weight: bold;
+    width: 200px;
+    height: 140px;
+    line-height: 15px;
+    text-align:start;
+    margin: 5px;
+    text-decoration: none;
+}
+
+.flex-container3 {
+    border: 1px solid rgb(3, 41, 3);
+    background-color: rgb(98, 222, 98);
+    padding: 20px;
+    display: flex;
+    flex-flow:column;
+    width: 60%;
+    height: 300px;
+    margin: 0 auto;
+    justify-content:space-between;
+    align-content:center;
+}
+
+.flex-containermain {
+    background-color: rgb(98, 222, 98);
+    padding: 20px;
+    display: flex;
+    flex-flow:row wrap;
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+.containermain-foto {
+
+    color: black;
+    font-weight: bold;
+    width: 250px;
+    height: 150px;
+    line-height: 15px;
+    text-align:start;
+    margin: 5px;
+    text-decoration: none;
+    padding: 4px;
+    align-content:center;
+}
+
+.containermain-texto {
+    border: 2px solid white;
+    background-color: rgb(103, 176, 103);
+    color: black;
+    font-weight: bold;
+    width: 450px;
+    height: 200px;
+    line-height: 15px;
+    text-align:start;
+    margin: 5px;
+    text-decoration: none;
+    align-content:center;
+
+}
+
+.flex-container4 {
+    border: 1px solid rgb(3, 41, 3);
+    background-color: rgb(98, 222, 98);
+    padding: 20px;
+    display: flex;
+    flex-flow:column;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    justify-content:space-between;
+    align-content:center;
+}
+
+.flex-container-redes {
+    color: black;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    font-weight: bold;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px
+
+}
+
+.grid__containerproductos {
+    display: grid;
+    border: 5px solid rgb(78, 208, 78);
+    grid-template-areas: "uno uno seis" 
+                        "uno uno cuatro"
+                        "tres cinco cuatro"
+                        "tres cinco dos"
+                        "tres cinco dos";
+    gap: 10px;
+}
+
+.grid__item {
+    border: 2px solid white;
+    background-color: rgb(103, 176, 103);
+}
+
+.grid__perrosygatos {
+grid-area: uno;
+}
+
+.grid__semillas {
+grid-area: cuatro;
+}
+
+.grid__agroquimicos {
+grid-area: cinco;
+}
+
+.grid__mantas {
+grid-area: dos;
+}
+
+.grid__alimento {
+grid-area: seis;
+}
+
+.grid__idai {
+grid-area: tres;
+}
+
+.grid__containermain {
+    display: grid;
+    border: 5px solid rgb(78, 208, 78);
+    grid-template-areas: "uno dos dos"
+                        "uno dos dos";
+    gap: 10px;
+}
+
+.grid__imag {
+grid-area: uno;
+}
+
+.grid__texto {
+grid-area: dos;
+background-color: rgb(98, 190, 98);
+}
